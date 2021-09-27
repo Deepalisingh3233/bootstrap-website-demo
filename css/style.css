@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    
+}
+.img:hover{
+    /* filter: hue-rotate(170deg); */
+    box-shadow: 3px 2px 5px 2px #888888;
+}
+.img-coffee{
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.banner{
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top: 0;
+    /* width:500px; */
+}
+/* .ml-2{
+    margin-left: 0;
+} */
